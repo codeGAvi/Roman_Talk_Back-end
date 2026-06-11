@@ -2,6 +2,8 @@ package com.example.RomanTalk.entity;
 
 import jakarta.persistence.*;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name = "users")
 public class User {
@@ -16,6 +18,31 @@ public class User {
     private String email;
 
     private String password;
+
+    @Column(name = "is_pro", columnDefinition = "boolean default false")
+    private boolean isPro = false;
+
+    private LocalDateTime proActivatedAt;
+
+
+    public boolean isPro() {
+        return isPro;
+    }
+
+    public void setPro(boolean pro) {
+        isPro = pro;
+    }
+
+    public LocalDateTime getProActivatedAt() {
+        return proActivatedAt;
+    }
+
+    public void setProActivatedAt(LocalDateTime proActivatedAt) {
+        this.proActivatedAt = proActivatedAt;
+    }
+
+
+
 
     public User() {
     }

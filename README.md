@@ -1,5 +1,4 @@
 ---
-
 title: Romantalk Backend
 emoji: 🚀
 colorFrom: blue
@@ -9,7 +8,7 @@ app_port: 8080
 pinned: false
 license: apache-2.0
 short_description: AI-powered backend for translating 20+ languages into Roman script
--------------------------------------------------------------------------------------
+---
 
 # RomanTalk Backend
 

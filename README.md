@@ -7,7 +7,7 @@ sdk: docker
 app_port: 8080
 pinned: false
 license: apache-2.0
-short_description: AI-powered backend for translating 20+ languages into Roman script
+short_description: AI-powered Roman language translator backend
 ---
 
 # RomanTalk Backend
